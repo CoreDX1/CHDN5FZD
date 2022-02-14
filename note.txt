@@ -1,0 +1,6 @@
+
+                <p>Cuidad Monocromatico</p>
+                <img src="image/imagen_01.jpg" class="imagen_galeria_background">
+                <p>Cuidad Monocromatico</p>
+                <img src="image/imagen_02.jpg" class="imagen_galeria_background">
+                <img src="image/imagen_03.jpg" class="imagen_galeria_background">
