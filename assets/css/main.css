@@ -10,6 +10,11 @@ body {
   height: 100vh;
 }
 
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contenedor .header {
   padding: 100px;
   flex-direction: column;
@@ -44,7 +49,6 @@ body {
   margin-right: 15px;
 }
 .contenedor .header #menu_Primario .menuPagina a {
-  display: block;
   color: rgba(0, 0, 0, 0.726);
   text-decoration: none;
   font-size: 18px;
@@ -53,6 +57,25 @@ body {
 }
 .contenedor .header #menu_Primario .menuPagina a:hover {
   border-bottom: 1px solid black;
+}
+.contenedor .contenido {
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 20px;
+}
+.contenedor .contenido .image_galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor .contenido .image_galeria .imagen_galeria_background {
+  border-radius: 20px;
+  width: 1200px;
+  margin: 10px;
+}
+.contenedor .contenido .image_galeria p {
+  color: red;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

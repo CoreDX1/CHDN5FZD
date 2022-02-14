@@ -1,4 +1,4 @@
-let nombre = prompt("Ingrese su Nombre");
+let nombre = ("Ingrese su Nombre");
 const cuadro = document.getElementById("cuadro");
 let nombreIngresado = document.createElement("h1");
 nombreIngresado.innerHTML = `${nombre}`;
@@ -14,3 +14,6 @@ for (const menuPagina of menus){
     menu_Primario.appendChild(contenedor);
 }
 
+const galeria = [
+    {}
+]
