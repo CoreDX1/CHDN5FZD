@@ -15,13 +15,13 @@ body {
   flex-direction: column;
   width: 100vw;
 }
-.contenedor .header .cuadro {
+.contenedor .header #cuadro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contenedor .header .cuadro h1 {
+.contenedor .header #cuadro h1 {
   display: block;
   font-size: 24px;
   text-align: center;
@@ -29,7 +29,7 @@ body {
   color: white;
   padding: 2px 50px;
 }
-.contenedor .header .cuadro p {
+.contenedor .header #cuadro p {
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.418);
 }
