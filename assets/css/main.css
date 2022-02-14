@@ -1,5 +1,58 @@
-h1 {
-    color: red;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff8f8;
+  width: 100%;
+  height: 100vh;
+}
+
+.contenedor .header {
+  padding: 100px;
+  flex-direction: column;
+  width: 100vw;
+}
+.contenedor .header .cuadro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .header .cuadro h1 {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  padding: 2px 50px;
+}
+.contenedor .header .cuadro p {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.418);
+}
+.contenedor .header #menu_Primario {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.contenedor .header #menu_Primario .menuPagina {
+  display: inline-block;
+  justify-content: center;
+  margin-right: 15px;
+}
+.contenedor .header #menu_Primario .menuPagina a {
+  display: block;
+  color: rgba(0, 0, 0, 0.726);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 100;
+  transition: all 0.5s;
+}
+.contenedor .header #menu_Primario .menuPagina a:hover {
+  border-bottom: 1px solid black;
 }
 
 /*# sourceMappingURL=main.css.map */
